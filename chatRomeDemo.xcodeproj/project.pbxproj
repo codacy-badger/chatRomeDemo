@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE78060E1DE2F27F0012D48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78060D1DE2F27F0012D48D /* AppDelegate.swift */; };
+		EE7806101DE2F27F0012D48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78060F1DE2F27F0012D48D /* ViewController.swift */; };
+		EE7806131DE2F27F0012D48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7806111DE2F27F0012D48D /* Main.storyboard */; };
+		EE7806151DE2F27F0012D48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7806141DE2F27F0012D48D /* Assets.xcassets */; };
+		EE7806181DE2F27F0012D48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7806161DE2F27F0012D48D /* LaunchScreen.storyboard */; };
+		EE7806231DE2F2800012D48D /* chatRomeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7806221DE2F2800012D48D /* chatRomeDemoTests.swift */; };
+		EE78062E1DE2F2800012D48D /* chatRomeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78062D1DE2F2800012D48D /* chatRomeDemoUITests.swift */; };
+		EE7806401DE2FB510012D48D /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78063F1DE2FB510012D48D /* ChatRoom.swift */; };
+		EE7806421DE2FB5E0012D48D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7806411DE2FB5E0012D48D /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE78061F1DE2F2800012D48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7806021DE2F27F0012D48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7806091DE2F27F0012D48D;
+			remoteInfo = chatRomeDemo;
+		};
+		EE78062A1DE2F2800012D48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE7806021DE2F27F0012D48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE7806091DE2F27F0012D48D;
+			remoteInfo = chatRomeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE78060A1DE2F27F0012D48D /* chatRomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatRomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE78060D1DE2F27F0012D48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE78060F1DE2F27F0012D48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7806121DE2F27F0012D48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7806141DE2F27F0012D48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7806171DE2F27F0012D48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7806191DE2F27F0012D48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE78061E1DE2F2800012D48D /* chatRomeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatRomeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7806221DE2F2800012D48D /* chatRomeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRomeDemoTests.swift; sourceTree = "<group>"; };
+		EE7806241DE2F2800012D48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7806291DE2F2800012D48D /* chatRomeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chatRomeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE78062D1DE2F2800012D48D /* chatRomeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRomeDemoUITests.swift; sourceTree = "<group>"; };
+		EE78062F1DE2F2800012D48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE78063F1DE2FB510012D48D /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		EE7806411DE2FB5E0012D48D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7806071DE2F27F0012D48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE78061B1DE2F2800012D48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7806261DE2F2800012D48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7806011DE2F27F0012D48D = {
+			isa = PBXGroup;
+			children = (
+				EE78060C1DE2F27F0012D48D /* chatRomeDemo */,
+				EE7806211DE2F2800012D48D /* chatRomeDemoTests */,
+				EE78062C1DE2F2800012D48D /* chatRomeDemoUITests */,
+				EE78060B1DE2F27F0012D48D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE78060B1DE2F27F0012D48D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE78060A1DE2F27F0012D48D /* chatRomeDemo.app */,
+				EE78061E1DE2F2800012D48D /* chatRomeDemoTests.xctest */,
+				EE7806291DE2F2800012D48D /* chatRomeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE78060C1DE2F27F0012D48D /* chatRomeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE78060D1DE2F27F0012D48D /* AppDelegate.swift */,
+				EE78060F1DE2F27F0012D48D /* ViewController.swift */,
+				EE78063F1DE2FB510012D48D /* ChatRoom.swift */,
+				EE7806411DE2FB5E0012D48D /* User.swift */,
+				EE7806111DE2F27F0012D48D /* Main.storyboard */,
+				EE7806141DE2F27F0012D48D /* Assets.xcassets */,
+				EE7806161DE2F27F0012D48D /* LaunchScreen.storyboard */,
+				EE7806191DE2F27F0012D48D /* Info.plist */,
+			);
+			path = chatRomeDemo;
+			sourceTree = "<group>";
+		};
+		EE7806211DE2F2800012D48D /* chatRomeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7806221DE2F2800012D48D /* chatRomeDemoTests.swift */,
+				EE7806241DE2F2800012D48D /* Info.plist */,
+			);
+			path = chatRomeDemoTests;
+			sourceTree = "<group>";
+		};
+		EE78062C1DE2F2800012D48D /* chatRomeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE78062D1DE2F2800012D48D /* chatRomeDemoUITests.swift */,
+				EE78062F1DE2F2800012D48D /* Info.plist */,
+			);
+			path = chatRomeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7806091DE2F27F0012D48D /* chatRomeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7806321DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemo" */;
+			buildPhases = (
+				EE7806061DE2F27F0012D48D /* Sources */,
+				EE7806071DE2F27F0012D48D /* Frameworks */,
+				EE7806081DE2F27F0012D48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chatRomeDemo;
+			productName = chatRomeDemo;
+			productReference = EE78060A1DE2F27F0012D48D /* chatRomeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE78061D1DE2F2800012D48D /* chatRomeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7806351DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemoTests" */;
+			buildPhases = (
+				EE78061A1DE2F2800012D48D /* Sources */,
+				EE78061B1DE2F2800012D48D /* Frameworks */,
+				EE78061C1DE2F2800012D48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7806201DE2F2800012D48D /* PBXTargetDependency */,
+			);
+			name = chatRomeDemoTests;
+			productName = chatRomeDemoTests;
+			productReference = EE78061E1DE2F2800012D48D /* chatRomeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE7806281DE2F2800012D48D /* chatRomeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7806381DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemoUITests" */;
+			buildPhases = (
+				EE7806251DE2F2800012D48D /* Sources */,
+				EE7806261DE2F2800012D48D /* Frameworks */,
+				EE7806271DE2F2800012D48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE78062B1DE2F2800012D48D /* PBXTargetDependency */,
+			);
+			name = chatRomeDemoUITests;
+			productName = chatRomeDemoUITests;
+			productReference = EE7806291DE2F2800012D48D /* chatRomeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7806021DE2F27F0012D48D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张锦辉";
+				TargetAttributes = {
+					EE7806091DE2F27F0012D48D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EE78061D1DE2F2800012D48D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EE7806091DE2F27F0012D48D;
+					};
+					EE7806281DE2F2800012D48D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EE7806091DE2F27F0012D48D;
+					};
+				};
+			};
+			buildConfigurationList = EE7806051DE2F27F0012D48D /* Build configuration list for PBXProject "chatRomeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7806011DE2F27F0012D48D;
+			productRefGroup = EE78060B1DE2F27F0012D48D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7806091DE2F27F0012D48D /* chatRomeDemo */,
+				EE78061D1DE2F2800012D48D /* chatRomeDemoTests */,
+				EE7806281DE2F2800012D48D /* chatRomeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7806081DE2F27F0012D48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7806181DE2F27F0012D48D /* LaunchScreen.storyboard in Resources */,
+				EE7806151DE2F27F0012D48D /* Assets.xcassets in Resources */,
+				EE7806131DE2F27F0012D48D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE78061C1DE2F2800012D48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7806271DE2F2800012D48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7806061DE2F27F0012D48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7806421DE2FB5E0012D48D /* User.swift in Sources */,
+				EE7806401DE2FB510012D48D /* ChatRoom.swift in Sources */,
+				EE7806101DE2F27F0012D48D /* ViewController.swift in Sources */,
+				EE78060E1DE2F27F0012D48D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE78061A1DE2F2800012D48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7806231DE2F2800012D48D /* chatRomeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7806251DE2F2800012D48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE78062E1DE2F2800012D48D /* chatRomeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7806201DE2F2800012D48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7806091DE2F27F0012D48D /* chatRomeDemo */;
+			targetProxy = EE78061F1DE2F2800012D48D /* PBXContainerItemProxy */;
+		};
+		EE78062B1DE2F2800012D48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE7806091DE2F27F0012D48D /* chatRomeDemo */;
+			targetProxy = EE78062A1DE2F2800012D48D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7806111DE2F27F0012D48D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7806121DE2F27F0012D48D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7806161DE2F27F0012D48D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7806171DE2F27F0012D48D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7806301DE2F2800012D48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7806311DE2F2800012D48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7806331DE2F2800012D48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chatRomeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7806341DE2F2800012D48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chatRomeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE7806361DE2F2800012D48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chatRomeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatRomeDemo.app/chatRomeDemo";
+			};
+			name = Debug;
+		};
+		EE7806371DE2F2800012D48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chatRomeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chatRomeDemo.app/chatRomeDemo";
+			};
+			name = Release;
+		};
+		EE7806391DE2F2800012D48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chatRomeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chatRomeDemo;
+			};
+			name = Debug;
+		};
+		EE78063A1DE2F2800012D48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chatRomeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjh..chatRomeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chatRomeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7806051DE2F27F0012D48D /* Build configuration list for PBXProject "chatRomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7806301DE2F2800012D48D /* Debug */,
+				EE7806311DE2F2800012D48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7806321DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7806331DE2F2800012D48D /* Debug */,
+				EE7806341DE2F2800012D48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7806351DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7806361DE2F2800012D48D /* Debug */,
+				EE7806371DE2F2800012D48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7806381DE2F2800012D48D /* Build configuration list for PBXNativeTarget "chatRomeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7806391DE2F2800012D48D /* Debug */,
+				EE78063A1DE2F2800012D48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7806021DE2F27F0012D48D /* Project object */;
+}
